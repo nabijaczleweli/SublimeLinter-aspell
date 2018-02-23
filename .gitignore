@@ -1,0 +1,11 @@
+*
+!.sublimelinterrc
+!messages.json
+!LICENSE
+!README.md
+!linter.py
+!.git*
+!*.yml
+!*.sublime-project
+!messages
+!messages/**

@@ -1,0 +1,23 @@
+{
+	"build_systems":
+	[
+		{
+			"working_dir": "$project_path",
+			"shell_cmd": "flake8 . --max-line-length=120 && pydocstyle . --add-ignore=D202",
+			"name": "Check SublimeLinter-contrib-aspell",
+
+			"target": "ansi_color_build",
+			"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+		},
+	],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "Source & build scripts",
+			"path": "messages/..",
+			"file_include_patterns": ["*.py", "*.yml"],
+			"folder_exclude_patterns": ["*"]
+		},
+	]
+}

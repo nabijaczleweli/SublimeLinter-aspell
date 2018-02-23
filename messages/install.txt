@@ -1,0 +1,10 @@
+SublimeLinter-contrib-aspell
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to aspell.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/nabijaczleweli/SublimeLinter-contrib-aspell
